@@ -1,0 +1,107 @@
+.nav__container {
+    background: transparent !important;
+    position: absolute !important;
+    width: 100%;
+    z-index: 400;
+}
+.menu__svg {
+    width: 36px;
+    height: 36px;
+}
+
+.toggle__handler {
+    padding-right: 0 !important;
+}
+
+.trasnlate__svg {
+    width: 24px;
+    height: 24px;
+}
+
+.logo__nav__handler {
+    display: flex !important;
+    align-items: center !important;
+    padding: 0 !important;
+    position: absolute;
+    top: 6px;
+}
+
+.logo__svg {
+    width: 223px;
+    height: 73px;
+}
+
+.navbar-brand {
+    margin: 0 !important;
+    padding: 0 !important;
+}
+
+.lang__handler {
+    padding-left: 0 !important;
+}
+
+.text__Nav {
+    font-family: 'Tajawal', sans-serif;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 16.8px;
+    width: 82px;
+    height: 17px;
+}
+.rectangular {
+    background-color: #1C344C;
+    border-radius: 20px;
+    box-shadow: 9px 7px 13px 0 #0000001C;
+    width: 60px;
+    height: 30px;
+}
+
+.moon__svg {
+    width: 20px;
+    height: 20px;
+}
+
+.btnTalk {
+    background: linear-gradient(rgba(148, 18, 37, 1), rgba(235, 47, 74, 1));
+    width: 140px;
+    height: 50px;
+    border-radius: 10px;
+    color: #FFFFFF;
+
+}
+
+.btnTalk__text {
+    font-family: 'Space Grotesk', sans-serif;
+    text-transform: uppercase;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 17.86px;
+    text-align: center;
+    width: 68px;
+    height: 18px;
+
+}
+
+.btnTalk__svg img {
+    width: 24px;
+    height: 24px;
+    border-radius: 10px;
+    text-align: center;
+    padding: 2px;
+}
+/* start responsive */
+@media screen and (max-width: 1023px){
+  
+}
+@media screen and (max-width: 991px) and (min-width: 600px){
+    .logo__nav__handler{
+        position: relative;
+    }
+}
+@media screen and (max-width: 600px) and (min-width: 0px) {
+    .noneInSmallDevice{
+        display: none !important;
+    }
+}
+
+

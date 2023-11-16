@@ -1,0 +1,24 @@
+.hosting__sec{
+    margin-top: 100px;
+    position: relative;
+    overflow: hidden;
+
+}
+.hosting__handler{
+    border-radius: 35px;
+    position: relative;
+    background: radial-gradient(50% 50% at 50% 50%, #345D86 0%, #1C344C 100%);
+    padding-top: 80px;
+    height: 640px;
+}
+.hosting__subTit{
+    color: #fff;
+}
+.serverImg__handler .img__handler{
+    position: absolute;
+    bottom: 0px;
+}
+
+.serverImg__handler img{
+    opacity: .6;
+}

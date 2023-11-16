@@ -1,0 +1,73 @@
+.teamSec__handler{
+    margin-top: 100px;
+}
+.team__title_bg{
+    position: relative;
+    overflow: hidden;
+}
+.team__margin{
+    margin-top: 70px !important;
+}
+.team__title_bg::before{
+    position: absolute;
+    left: 0;
+    right: 0;
+    content: 'TEAMMEMBERS';
+    text-align: center;
+    font-family: 'Space Grotesk', sans-serif;
+    font-size: 200px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    text-transform: uppercase;
+    background: linear-gradient(180deg, rgba(28, 52, 76, 0.10) 0%, rgba(255, 255, 255, 0.00) 100%);
+    background-clip: text;
+-webkit-background-clip: text;
+-webkit-text-fill-color: transparent;
+}
+.team__avatar img{
+    width: 260px;
+height: 260px;
+}
+.team__Title{
+    color: #292D32;
+text-align: center;
+font-family: 'Space Grotesk', sans-serif;
+font-size: 28px;
+font-style: normal;
+font-weight: 700;
+line-height: 28.709px;
+display: flex;
+    justify-content: center;
+    margin: 10px 0;
+}
+.team__Info{
+    color: #52C3D6;
+text-align: center;
+font-family: 'Space Grotesk', sans-serif;
+font-size: 14px;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+text-transform: uppercase;
+display: flex;
+    justify-content: center;
+}
+.team__slider__handler{
+    position: relative;
+    overflow: hidden;
+}
+
+
+@media screen and (max-width: 991px) and (min-width: 0px) {
+    .team__slider__handler .swiper-slide{
+      width: calc(100%/1) !important;
+      margin-right: 0 !important;
+    }
+    .team__Title{
+        justify-content: center;
+    }
+    .team__Info{
+        justify-content: center;
+    }
+    }
