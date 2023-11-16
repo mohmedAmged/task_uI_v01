@@ -60,10 +60,16 @@ margin-top: 10px;
 }
 
 
-@media screen and (max-width: 991px) and (min-width: 0px) {
+@media screen and (max-width: 600px) and (min-width: 0px) {
   .sucessHandler__slider .swiper-slide{
-    width: calc(100%/1.1) !important;
+    width: calc(100%/1) !important;
     margin-right: 0 !important;
   }
   }
+  @media screen and (max-width: 991px) and (min-width: 600px) {
+    .sucessHandler__slider .swiper-slide{
+      width: calc(100%/2) !important;
+      margin-right: 0 !important;
+    }
+    }
  

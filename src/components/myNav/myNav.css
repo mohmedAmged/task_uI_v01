@@ -67,7 +67,6 @@
     height: 50px;
     border-radius: 10px;
     color: #FFFFFF;
-
 }
 
 .btnTalk__text {
@@ -91,7 +90,6 @@
 }
 /* start responsive */
 @media screen and (max-width: 1023px){
-  
 }
 @media screen and (max-width: 991px) and (min-width: 600px){
     .logo__nav__handler{
@@ -100,6 +98,9 @@
 }
 @media screen and (max-width: 600px) and (min-width: 0px) {
     .noneInSmallDevice{
+        display: none !important;
+    }
+    .btnTalk{
         display: none !important;
     }
 }

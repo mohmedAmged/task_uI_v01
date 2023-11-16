@@ -154,3 +154,9 @@
   .servBox__Handler:hover .servIcon{
     display: flex;
   }
+
+  @media screen and (max-width: 991px) and (min-width: 0){
+    .border__Right{
+      border: none;
+    }
+}

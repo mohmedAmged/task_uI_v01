@@ -9,8 +9,8 @@ import './myNav.css'
 export default function MyNav({ handleToggle, show }) {
     return (
         <>
-            <Navbar className="d-flex justify-content-between align-items-center nav__container">
-                <div className="container-fluid">
+            <Navbar className="d-flex p-0 m-0 justify-content-between align-items-center nav__container">
+                <div className="container">
                     <Nav>
                         <Nav.Link className='toggle__handler' onClick={handleToggle}>
                             <img className='menu__svg' src={menu} alt="" />
@@ -32,7 +32,7 @@ export default function MyNav({ handleToggle, show }) {
                             </div>
                         </Nav.Link>
                         <Nav.Link href="#pricing" className='d-flex justify-content-center align-items-center'>
-                            <div className="btnTalk d-flex justify-content-center align-items-center">
+                            <div className="btnTalk d-flex justify-content-center align-items-center p-0 m-0">
                                 <span className='btnTalk__text'>lets talk</span>
                                 <span className='btnTalk__svg'>
                                     <img src={Arrow1} alt="" />

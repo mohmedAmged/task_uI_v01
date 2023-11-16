@@ -1,0 +1,9 @@
+.mapHandler{
+    margin-top: 70px;
+}
+.map__handler{
+    display: inline-flex;
+padding: 33.375px 35px 18.391px 38.664px;
+justify-content: center;
+align-items: center;
+}

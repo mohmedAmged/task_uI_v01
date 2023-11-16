@@ -11,6 +11,7 @@ import PartenrSec from './components/partenerSec/PartenrSec';
 import HostingSec from './components/hostingSec/HostingSec';
 import SucessSec from './components/sucessSec/SucessSec';
 import TeamSec from './components/teamSec/TeamSec';
+import MapSec from './components/mapSec/MapSec';
 
 function App() {
   const [show, setShow] = useState(false);
@@ -28,6 +29,7 @@ function App() {
       <HostingSec/>
       <SucessSec/>
       <TeamSec/>
+      <MapSec/>
     </>
   );
 }
